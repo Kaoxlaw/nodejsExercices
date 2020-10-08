@@ -5,7 +5,7 @@ const thingSchema = mongoose.Schema({
   description: { type: String, required: true },
   imageUrl: { type: String, require: true },
   userId: { type: String, require: true },
-  price: { type: Number, require: true}
-})
+  price: { type: Number, require: true },
+});
 
 module.exports = mongoose.model('Things', thingSchema);
